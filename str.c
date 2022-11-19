@@ -56,7 +56,7 @@ char *_strdup(const char *str)
  * @str: the string to calculate the length of
  * Return: the length of the string
  */
-ssize_t _strlen(const char *str)
+size_t _strlen(const char *str)
 {
 	const char *pos = str;
 

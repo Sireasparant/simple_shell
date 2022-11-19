@@ -17,7 +17,9 @@ struct history
 	size_t n;
 };
 
-#endif /* _HISTORY_H_ *#ifndef _HISTORY_H_
+#endif /* _HISTORY_H_ */
+/*
+#ifndef _HISTORY_H_
 #define _HISTORY_H_
 
 #include "list.h"
@@ -28,7 +30,7 @@ struct history
  *     * @head: a pointer to the head of the history list
  *       * @filename: the name of the history to file
  *         * @n: the number of entries in the history list
- *           */
+ *           
 struct history
 {
 		struct list *head;
@@ -36,5 +38,5 @@ struct history
 				size_t n;
 };
 
-#endif /* _HISTORY_H_ */
+#endif _HISTORY_H_ */
 

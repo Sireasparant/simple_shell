@@ -1,4 +1,4 @@
-#ifndefine _COMMAND_H_
+#ifndef _COMMAND_H_
 #define _COMMAND_H_
 
 #include <stdlib.h>
