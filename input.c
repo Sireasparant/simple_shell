@@ -1,5 +1,3 @@
-es (68 sloc)  1.42 KB
-
 #include "hsh.h"
 #include "getline.h"
 

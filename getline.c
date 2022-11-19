@@ -1,5 +1,3 @@
-nes (156 sloc)  3.24 KB
-
 #include "getline.h"
 #include "string.h"
 

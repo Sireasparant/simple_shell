@@ -27,7 +27,7 @@ env_t *_env_to_dict(env_t **tailptr, char **env)
 {
 	env_t *tail;
 	char *env_str;
-	ssize_t key_len;
+	size_t key_len;
 
 	if (!*env)
 		return (*tailptr);

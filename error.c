@@ -1,5 +1,3 @@
-es (51 sloc)  1.29 KB
-
 #include "error.h"
 
 /**

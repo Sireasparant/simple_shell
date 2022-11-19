@@ -1,5 +1,3 @@
-nes (89 sloc)  1.75 KB
-
 #include "string.h"
 
 /**
@@ -8,9 +6,9 @@ nes (89 sloc)  1.75 KB
   * @chr: character passed
   * Return: index
   */
-ssize_t _strchr(const char *str, char chr)
+size_t _strchr(const char *str, char chr)
 {
-	ssize_t index;
+	size_t index;
 
 	if (!str)
 		return (-1);

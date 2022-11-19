@@ -1,7 +1,4 @@
-nes (96 sloc)  2.25 KB
-
 #include "list.h"
-
 /**
  * str_to_list - turn a string into a linked list
  * @str: string passed
@@ -33,7 +30,7 @@ list_t *str_to_list(const char *str, char delim)
 list_t *_str_to_list(list_t **tailptr, const char *str, char delim)
 {
 	list_t *tail;
-	ssize_t len = _strchr(str, delim);
+	size_t len = _strchr(str, delim);
 
 	if (len == -1)
 		len = _strlen(str);

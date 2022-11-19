@@ -1,5 +1,3 @@
-es (53 sloc)  1.06 KB
-
 #include "quote.h"
 
 /**

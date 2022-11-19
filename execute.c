@@ -1,5 +1,3 @@
-es (82 sloc)  1.59 KB
-
 #include "hsh.h"
 
 /**

@@ -9,7 +9,7 @@
 size_t split_cmd(char *cmd)
 {
 	size_t count = 1, state_len;
-	ssize_t sep_index;
+	size_t sep_index;
 	quote_state_t state;
 
 	do {

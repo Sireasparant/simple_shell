@@ -1,6 +1,4 @@
-es (67 sloc)  1.64 KB
-
-#ifndef _COMMAND_H_
+#ifndefine _COMMAND_H_
 #define _COMMAND_H_
 
 #include <stdlib.h>

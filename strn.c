@@ -1,5 +1,3 @@
-nes (107 sloc)  2.44 KB
-
 #include "string.h"
 
 /**
@@ -9,9 +7,9 @@ nes (107 sloc)  2.44 KB
   * @n: max number of characters to check
   * Return: Index of the first occurence, or -1 chr is not found
   */
-ssize_t _strnchr(const char *str, char chr, size_t n)
+size_t _strnchr(const char *str, char chr, size_t n)
 {
-	ssize_t index;
+	size_t index;
 
 	if (!str)
 		return (-1);
@@ -67,7 +65,7 @@ char *_strndup(const char *str, size_t n)
  * @n: the max number of characters to check
  * Return: the lesser of n and the length of the string
  */
-ssize_t _strnlen(const char *str, size_t n)
+size_t _strnlen(const char *str, size_t n)
 {
 	const char *pos = str;
 

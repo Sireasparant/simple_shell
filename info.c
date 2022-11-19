@@ -1,5 +1,3 @@
-es (56 sloc)  1.22 KB
-
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>

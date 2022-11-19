@@ -1,5 +1,3 @@
-es (82 sloc)  1.86 KB
-
 #include "string.h"
 
 /**
@@ -10,10 +8,10 @@ es (82 sloc)  1.86 KB
  * Return: If chr does not occur in the first n elements of src, return -1.
  * Otherwise, return the index of the first occurence of chr.
  */
-ssize_t _memchr(const void *src, unsigned char chr, size_t n)
+size_t _memchr(const void *src, unsigned char chr, size_t n)
 {
 	const unsigned char *mem = src;
-	ssize_t i = 0;
+	size_t i = 0;
 
 	if (src)
 	{
