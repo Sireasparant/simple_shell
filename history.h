@@ -14,7 +14,7 @@ struct history
 {
 	struct list *head;
 	char *filename;
-	unsigned size_t n;
+	size_t n;
 };
 
 #endif /* _HISTORY_H_ */
